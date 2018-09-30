@@ -107,14 +107,14 @@ input {
 .addBtn {
     padding: 10px;
     width: 25%;
-    background: #d9d9d9;
-    color: #f44336;
+    background: #f44336;
+    color:#ddd;
     float: left;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .addBtn:hover {
