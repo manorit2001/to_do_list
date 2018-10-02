@@ -61,3 +61,20 @@ input.addEventListener("keyup", function(event) {
         document.getElementById("addBtn").click();
     }
 });
+//date feature
+var today =new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+
+if(dd<10) {
+    dd = '0'+dd
+} 
+
+if(mm<10) {
+    mm = '0'+mm
+} 
+
+today = dd + '/' + mm + '/' + yyyy;
+var ad="added on "+today;
+document.getElementById("displaydate").innerHTML=ad;
